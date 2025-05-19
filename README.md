@@ -174,12 +174,12 @@ Accuracy Comparison (Visualized).
     weighted avg       0.82      0.82      0.82       184
 
 ### 6. **Testing**
-A patient’s clinical data was evaluated using an ensemble of well-trained machine learning models. 
-- Each model analyzed the input through a classification algorithm designed to predict the presence or absence of heart disease.
+A patient’s clinical data was evaluated using an ensemble of well-trained machine learning models. Each model analyzed the input through a classification algorithm designed to predict the presence or absence of heart disease.
 
-The results from all models were aggregated using majority voting, a form of hard voting ensemble learning.
+The results from all models were aggregated using **majority voting**, a form of **hard voting ensemble learning**.
 Each model provided a binary prediction:
-  - 0 indicating no heart disease
-  - 1 indicating presence of heart disease
+  - **0** indicating **no heart disease.**
+  - **1** indicating **presence of heart disease.**
 
-The final decision was based on the most frequently occurring prediction.
+The final decision was made based on the most frequently occurring prediction, indicating whether heart disease is present or absent.
+
