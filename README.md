@@ -1,4 +1,4 @@
-#Heart Disease Prediction using Machine Learning
+### Heart Disease Prediction using Machine Learning
 
 Objective
 To predict the presence of heart disease in patients using multiple machine learning classifiers and compare their performance.
